@@ -10,7 +10,7 @@ module.exports = {
       type: String,
       message: 'Project Author'
     },
-    vsersion: {
+    version: {
       type: String,
       message: 'Project Version',
       default: '0.0.1'
@@ -18,8 +18,10 @@ module.exports = {
     description: {
       type: String,
       required: false,
-      message: 'Project description',
-      default: 'A new Rollup project'
+      message: 'Project Description',
+      default: 'A new rollup project'
     }
-  }
+  },
+  completeMessage:
+    'To get started:\n\n  cd {{destDirName}}\n  npm install\n  npm run dev\n\nDocumentation can be found at https://github.com/FateApocrypha/rollup-library-startup'
 }
