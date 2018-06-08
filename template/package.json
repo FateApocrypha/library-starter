@@ -1,10 +1,11 @@
 {
-  "name": "rollup-library-seed",
-  "version": "1.0.0",
-  "description": "",
-  "main": "dist/rollup-library-seed.cjs.js",
-  "module": "dist/rollup-library-seed.esm.js",
-  "unpkg": "dist/rollup-library-seed.min.js",
+  "name": "{{name}}",
+  "version": "{{version}}",
+  "description": "{{description}}",
+  "author": "{{author}}",
+  "main": "dist/{{name}}.cjs.js",
+  "module": "dist/{{name}}.esm.js",
+  "unpkg": "dist/{{name}}.min.js",
   "scripts": {
     "cz": "git-cz",
     "clean": "rimraf dist",
@@ -33,17 +34,12 @@
       "path": "node_modules/cz-customizable"
     }
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Copyes/rollup-library-seed.git"
-  },
   "keywords": [
     "rollup",
     "library",
     "starter",
     "babel"
   ],
-  "author": "Fan Chao",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Copyes/rollup-library-seed/issues"
