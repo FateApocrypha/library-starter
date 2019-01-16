@@ -5,8 +5,7 @@ module.exports = {
     browser: true,
     node: true,
     es6: true,
-    commonjs: true,
-    jest: true
+    commonjs: true
   },
   parser: 'babel-eslint',
   parserOptions: {
@@ -20,6 +19,7 @@ module.exports = {
     'import/no-extraneous-dependencies': 'off',
     'import/prefer-default-export': 'off',
     'max-len': 'off',
-    'no-underscore-dangle': 'off'
+    'no-underscore-dangle': 'off',
+    'no-useless-concat': 'off'
   }
 }
